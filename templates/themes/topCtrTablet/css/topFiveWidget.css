@@ -1,0 +1,67 @@
+
+#topWidget-wrp{
+    font-family                : Tahoma, Geneva, sans-serif;
+    display                    : block;
+    border                     : 1px solid #dedede;
+    font-size                  : 14px;
+    line-height                : 51px;
+    cursor                     : default;
+    color                      : #0073bf;
+    border-bottom-left-radius  :7px;
+    border-bottom-right-radius :7px;
+}
+
+#topWidget-title{
+    background-color: #074375;
+    font-size       : 18px;
+    font-weight     : bold;
+    color           : #ffffff;
+    line-height     : 52px;
+    height          : 50px;
+    text-align      : center;
+    font-family     : Tahoma, Geneva, sans-serif;
+    margin          : 34px 0px 0px 0px;
+    cursor          : default;
+}
+
+.tw-brnd{
+    position: relative;
+    display : block;
+    height  : 78px;
+}
+
+.tw-casino-img{
+  width               : 160px;
+  height              : 75px;
+  display             : inline-block;
+  background-repeat   : no-repeat;
+  background-position : center 0px;
+}
+
+.tw-link{
+  position        : absolute;
+  top             : 20px;
+  color           : #3FA0C8;
+  text-decoration : none;
+  font-size       : 10px;
+  line-height     : 0px;
+}
+.tw-link:hover{
+    text-decoration: underline;
+}
+.topWidget-visit-site-link{
+    left: 160px;
+}
+
+.topWidget-review{
+    left: 212px;
+}
+
+.tw-stars{
+  width             : 86px;
+  height            : 17px;
+  display           : block;
+  background-repeat : no-repeat;
+  margin-top: -68px;
+  margin-left: 165px;
+}

@@ -1,0 +1,179 @@
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-n2dsxl');
+	src:url('fonts/icomoon.eot?#iefix-n2dsxl') format('embedded-opentype'),
+	url('fonts/icomoon.woff?-n2dsxl') format('woff'),
+	url('fonts/icomoon.ttf?-n2dsxl') format('truetype'),
+	url('fonts/icomoon.svg?-n2dsxl#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.coll-support{
+	width: 100px;
+	line-height: 19px;
+}
+.support-icon{
+	font-size       : 20px !important;
+	margin          : 0px 7px 0px 7px;
+	width           : 20px;
+	display         : inline-block;
+	text-decoration : none;
+	color           : #00426B;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment:before {
+	content: "\f02b";
+}
+
+.icon-comment-discussion:before {
+	content: "\f04f";
+}
+
+.icon-mail:before {
+	content: "\f03b";
+}
+
+.icon-headphones:before {
+	content: "\e910";
+}
+
+.icon-phone:before {
+	content: "\e942";
+}
+
+.icon-bubbles2:before {
+	content: "\e96d";
+}
+
+.icon-perm-phone-msg:before {
+	content: "\e600";
+}
+
+.icon-headset-m:before {
+	content: "\e601";
+}
+
+
+
+#date-title {
+	clear         : both;
+	color         : #5F3939;
+	font-family   : Tahoma, Geneva, sans-serif;
+	position      : relative;
+	font-weight   : bold;
+	left          : -14px;
+	font-size     : 11.5px;
+	margin-bottom : 14px;
+	cursor        : default;
+	text-align    : right;
+}
+
+
+.rank-number {
+	display         : block;
+	font-size       : 37px !important;
+	text-align      : center;
+	text-decoration : none;
+	color           : #362E4C;
+}
+
+
+.coll-rank-number{
+	width: 51px;
+}
+
+.coll-tbl-play-now {
+	width: 180px;
+}
+
+
+.visit-site-btn {
+	width: 151px;
+	height: 40px;
+	display: inline-block;
+	/*background-image: url(/wp-content/themes/topCtr/images/visit-site.png);*/
+	background-image: url(../images/trade-now.png);
+	background-repeat: no-repeat;
+}
+.visit-site-btn:hover{
+	background-image: url(../images/trade-now-hover.png);
+}
+
+.coll-bonus{
+	font-weight: bold;
+	font-size: 15px !important;
+}
+
+.coll-ratings{
+	text-align: center;
+	font-size : 15px;
+	width     : 128px;
+}
+.coll-ratings a{
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 4px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	border-bottom: 1px solid rgb(163, 163, 163);
+}
+.coll-ratings a:hover{
+	border-bottom: 1px solid rgb(124, 124, 124)
+}
+
+
+.text-link{
+	color: #00426B;
+	text-decoration: none;
+}
+.text-link:hover{
+	text-decoration: underline;
+}
+
+.coll-max-payout .fa{
+
+}
+
+
+.circle:hover {
+
+}
+#tbl-footer a{
+	color           : #0E84B5;
+	text-decoration : none;
+}
+
+#tbl-footer a:hover{
+	text-decoration: underline;
+}
+.marquee {
+	overflow: hidden;
+	background: black;
+	cursor: default;
+}
+
+.stock-itm{
+	margin: 0px 20px 0px 0px;
+}
+.marquee .red{
+	color: #FF0D0D;
+}
+.marquee .green{
+	color: #00E400;
+}

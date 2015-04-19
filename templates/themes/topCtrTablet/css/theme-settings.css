@@ -1,0 +1,65 @@
+.input-as-text{
+background: transparent !important;
+box-shadow: none !important;
+}
+.col {
+    float: left;
+    width: 25%;
+    text-align: center
+}
+.last {
+    float: right;
+    width: 25%;
+    text-align: center
+}
+.circle {
+    background-color: #f5f0ea;
+    border: 5px solid #d7c8b3;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center
+}
+.circle-icon {
+    background: url(/wp-content/themes/topCtr/images/sprite1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 22px 0px 0px 1px
+}
+.icon-A {
+    background-position: 0px 0px
+}
+.icon-B {
+    background-position: -60px 0px
+}
+.icon-C {
+    background-position: -124px 0px
+}
+.icon-D {
+    background-position: -188px 0px
+}
+.small-title, input[type=text].small-title{
+    color: #012942;
+    display: block;
+    width: 87%;
+    text-align: center;
+    margin: 15px auto 17px auto;
+}
+.small-text {
+    width: 95%;
+    display: block;
+    margin: 0px auto;
+    word-spacing: 3px;
+    width: 400px;
+height: 110px; resize: none;
+}
+
+#tbl-footer-title{
+    width: 500px;
+    margin: 0px auto 0px auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+#text-page{
+	border: 1px solid #cbcbcb;
+	border-radius: 7px;
+	background-color: #fff;
+	font-size: 12px;
+	position: relative;
+	margin: 0px auto 48px auto;
+	color: #635e7e;
+	line-height: 24px;
+	padding: 4px 20px 4px 20px;
+	max-width: 985px;
+	cursor:default;
+}
+
+#text-page h3{
+	font-size: 18px;
+	margin: 25px 0px 20px 0px;
+	font-weight: normal;
+}
+
+#text-page a{
+	color: rgb(49, 49, 211);
+	text-decoration: none;
+}
+#text-page a:hover{
+	text-decoration: underline;
+}
+#text-page ul{
+	list-style-position: outside;
+	margin-left        : 22px;
+}
+
+#purple-title {
+	color: #402a75;
+	display: block;
+	font-size: 31pt;
+	text-transform: uppercase;
+	border-bottom: 1px solid #a1865d;
+	padding-top: 64px;
+	padding-bottom: 10px;
+	font-weight: 100;
+	text-align: center;
+}

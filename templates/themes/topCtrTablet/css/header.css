@@ -1,0 +1,164 @@
+
+#header-inner-wrp{
+  position:relative;
+}
+#logo {
+  width            : 334px;
+  height           : 111px;
+  background       : url(../images/logo.png) 0px 0px no-repeat;
+  display          : inline-block;
+  float            : left;
+  top              : 8px;
+  position         : relative;
+  background-size  : contain;
+}
+
+.TopMenu li {
+  margin-top     : 36px;
+  float          : left;
+  display        : block;
+  color          : #cabfdd;
+  padding-left   : 18px;
+  padding-right  : 18px;
+  font-size      : 11px;
+  font-weight    : bold;
+  text-transform : uppercase;
+  border-right   : 2px solid #FDE0B2;
+  letter-spacing : 0.8px;
+  word-spacing   : 3px;
+}
+.TopMenu li:first-of-type{
+  margin-left: 11px;
+}
+.TopMenu li:last-of-type{
+  border-right: 0px solid transparent;
+  padding-right: 0px;
+}
+.TopMenu li:last-of-type a{
+  color: white;
+  font-weight: 100;
+}
+.TopMenu li a{
+  color: #cabfdd;
+  text-decoration: none;
+}
+.TopMenu li a:hover{
+  text-decoration: underline;
+}
+
+
+.TopMenu li img{
+  width: 16px;
+  margin: 0px 6px -3px 0px;
+}
+.change-country{
+  cursor: pointer;
+}
+.change-country:hover{
+  text-decoration:underline;
+}
+
+#langBtn{
+  float: left;
+  width: 98px;
+  color: #cabfdd;
+  padding-left: 28px;
+  font-size: 11px;
+  height: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  background-position: 5px 50%;
+  line-height: 1.6em;
+  cursor: pointer;
+}
+#langBtn:hover:before{
+  text-decoration: none !important;
+  content: "\00a0";
+}
+#langBtn:hover{
+  text-decoration: underline;
+}
+
+#page-title{
+  text-align: center;
+  margin: 30px auto 40px auto;
+}
+
+#page-title span:first-of-type{
+  color: #402a75;
+  display: block;
+  font-size: 31pt;
+}
+
+#page-title span:nth-of-type(2){
+  color: #a1865d;
+  font-size: 17.5pt;
+}
+
+
+#countryChange{
+  padding: 6px 0px 0px 9px;
+}
+
+#countryChange .flag-icon{
+  display: block;
+  text-indent: 27px;
+  font-size: 22px;
+  margin: 0px 0px 10px 0px;
+}
+#countryChange .flag-icon a{
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(13, 26, 255);
+  letter-spacing: 1.4px;
+  text-shadow: 1px 1px 0px rgba(92, 92, 92, 0.56);
+}
+#countryChange .flag-icon a:hover{
+  text-decoration: underline;
+}
+
+.bubble-hidden{
+  transform: scale(0) skewX(-30deg) translateY(-150px);
+  -webkit-transform: scale(0) skewX(-30deg) translateY(-150px);
+}
+
+.bubble{
+  position: absolute;
+  right: 0px;
+  top: 68px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  border: #7F7F7F solid 0px;
+  box-shadow: 0px 0px 84px 3px black;
+  transition: transform 0.3s linear;
+  -webkit-transition: transform 0.3s linear;
+  z-index: 100;
+}
+
+.bubble:after {
+  content      : '';
+  position     : absolute;
+  border-style : solid;
+  border-width : 0 15px 15px;
+  border-color : rgba(255, 255, 255, 0.88) transparent;
+  display      : block;
+  width        : 0;
+  z-index      : 1;
+  top          : -15px;
+  left         : 122px;
+}
+
+.bubble:before {
+  content      : '';
+  position     : absolute;
+  border-style : solid;
+  border-width : 0 15px 15px;
+  border-color : rgba(127, 127, 127, 0) transparent;
+  display      : block;
+  width        : 0;
+  z-index      : 0;
+  top          : -16px;
+  left         : 122px;
+}

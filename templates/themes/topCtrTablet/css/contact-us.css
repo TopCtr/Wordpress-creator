@@ -1,0 +1,80 @@
+
+.contact-us-page{
+  background-color: white;
+  min-height      : 840px;
+  padding         : 20px 0px 0px 0px;
+}
+
+#contact-us-form{
+    margin: 0px auto 0px auto;
+    width: 60%;
+}
+.error{
+    padding: 5px 9px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 3px;
+}
+.success{
+    padding: 5px 9px;
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+}
+form span{
+    color: red;
+}
+
+.contact-us-page textarea{
+    width: calc(100% - 5px);
+    height: 241px;
+    border: 1px solid rgb(122, 122, 122);
+    padding: 3px 0px 0px 5px;
+}
+.contact-us-page textarea:hover{
+    border: 1px solid black;
+}
+
+.contact-us-page input{
+    min-height: 22px;
+    margin: 0px 0px 15px 0px;
+    border: 1px solid rgb(122, 122, 122);
+    padding: 1px 0px 0px 5px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Verdana, Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.contact-us-page input[type="text"]:hover{
+    border: 1px solid black;
+}
+
+.contact-us-page #send-btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+.contact-us-page #send-btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

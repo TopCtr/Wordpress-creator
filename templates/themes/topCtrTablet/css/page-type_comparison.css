@@ -1,0 +1,119 @@
+
+#page-title-comparison{
+	color: #402a75;
+	display: block;
+	text-align: center;
+	font-size: 31pt;
+	text-transform: uppercase;
+	border-bottom: 1px solid #a1865d;
+}
+
+#page-subtitle-comparison{
+	color: #000;
+	font-size: 13px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	text-align: center;
+	display: block;
+}
+
+#brand-table{
+	margin-bottom: 34px;
+}
+.coll-width {
+    width: 164px;
+}
+tbody td {
+    border: 1px solid #cbcbcb;
+}
+#table-header {
+    background-image: url(../images/table-top-background.png);
+    height: 53px;
+    color: white;
+    text-align: center;
+}
+#table-header td {
+    background: url(../images/table-header-border.png) 0px 0px repeat-y, url(../images/table-top-background.png);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#first-row {
+    background-color: #ededed;
+    height: 80px;
+    text-align: center;
+    cursor: default;
+}
+.coll-casinoimg img {
+    margin: 9px 0px 0px 0px;
+}
+.read-review-link {
+    color: rgb(20, 20, 20);
+    font-size: 13px;
+    display: block;
+    margin: 0px 0px 5px 0px;
+}
+.table-group {
+    text-align: left;
+    color: #402a75;
+    font-size: 13px;
+    background: url(../images/group-header.png) 0px 0px repeat-x;
+    height: 36px;
+}
+.table-group td {
+    padding: 0px 0px 0px 18px;
+    cursor: default;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ededed;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+.star-cell {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 76px;
+}
+.rating-title {
+    color: rgb(86, 82, 96);
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.cell-features{
+	height    : 40px;
+	color     : #565260;
+	font-size : 13px;
+	text-align: center;
+}
+.yes-no-cell{
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*height: 76px;*/
+}
+
+.cell-help-support{
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 46px;
+}
+
+/* iPad (portrait)                      */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#brand-table tr td:nth-of-type(4) {
+	display: table-cell !important;
+	}
+	#brand-table tr td:nth-of-type(6) {
+		display: none;
+	}
+.rating-title{
+		
+	}
+}

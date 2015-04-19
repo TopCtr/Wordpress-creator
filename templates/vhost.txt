@@ -1,0 +1,40 @@
+
+# <%= hostname %>
+<VirtualHost *:80>
+       DocumentRoot  "/var/www/html/portals/<%= hostname %>"
+       ServerName     <%= hostname %>
+       ServerAdmin    Arnon.Eilat@topctr.com
+       ErrorLog      "/var/www/html/portals/<%= hostname %>/error_log"
+       ServerAlias   <%= hostname %>
+       ModPagespeed Off
+
+       RewriteEngine On
+       RewriteLogLevel 9
+       # RewriteLog  /var/www/html/portals/<%= hostname %>/rewrite.log
+       <directory /var/www/html/portals/<%= hostname %>/>
+               # AllowOverride FileInfo Options Indexes
+               AllowOverride None
+
+               # BEGIN WordPress
+               RewriteRule ^index\.php$ - [L]
+               # uploaded files
+               RewriteCond %{REQUEST_FILENAME} -f [OR]
+               RewriteCond %{REQUEST_FILENAME} -d
+               RewriteRule ^ - [L]
+               RewriteRule . index.php [L]
+               # END WordPress
+       </directory>
+
+      # ModPagespeedAllow all
+      # ModPagespeedShardDomain http://<%= hostname %> http://assets1.<%= hostname %>,http://assets2.<%= hostname %>,http://assets3.<%= hostname %>
+      # AddOutputFilterByType MOD_PAGESPEED_OUTPUT_FILTER text/html
+      # ModPagespeedEnableFilters combine_javascript,extend_cache,resize_rendered_image_dimensions
+      # ModPagespeedEnableFilters add_head,combine_css,combine_javascript,convert_meta_tags,extend_cache,fallback_rewrite_css_urls,flatten_css_imports,inline_css,inline_import_to_link,inline_javascript,rewrite_css,rewrite_images,rewrite_javascript,rewrite_style_attributes_wit    h_url,move_css_to_head,inline_google_font_css,remove_comments,collapse_whitespace,remove_quotes
+
+      # PHP Error Log
+      # CustomLog  /var/www/html/portals/<%= hostname %>/apache.access.log common
+      # php_flag log_errors on
+      # php_flag display_errors on
+      # php_value error_reporting 2147483647
+      # php_value error_log /var/www/html/portals/<%= hostname %>/php.error.log
+</VirtualHost>
